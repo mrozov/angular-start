@@ -9,6 +9,7 @@
     "removeComments": false,
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
+	"outDir": "./wwwroot/js",
     "typeRoots": [
       "./node_modules/@types/"
     ]
@@ -16,6 +17,7 @@
   "compileOnSave": true,
   "exclude": [
     "node_modules/*",
-    "**/*-aot.ts"
+    "**/*-aot.ts",
+	"wwwroot"
   ]
 }
